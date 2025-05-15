@@ -3,6 +3,8 @@ import HeroPart1 from "./Part1";
 import { Urbanist } from "next/font/google";
 import HeroPart2 from "./Part2";
 import SubHero from "./SubHero";
+import FeaturedProperties from "./FeaturedProperties";
+import OurClients from "./OurClients";
 
 const urbanist = Urbanist({
   subsets: ["latin"],
@@ -18,6 +20,12 @@ const Hero = () => {
       </div>
       <div className="mt-8">
         <SubHero/>
+      </div>
+      <div className="mt-8">
+        <FeaturedProperties/>
+      </div>
+      <div className="mt-8">
+        <OurClients/>
       </div>
     </div>
   );
